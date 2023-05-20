@@ -19,7 +19,7 @@ To use the war game app, follow these steps:
 
 ## Technologies Used
 
-- API
+- API (Deck of cards)
 - JavaScript
 - HTML
 - CSS
@@ -35,17 +35,25 @@ The game follows the rules of the classic card game called "War." Here are the b
 5. The game continues until all cards have been drawn from the deck.
 6. The player with the most won rounds (highest score) at the end of the game wins.
 
-## Code Structure
+## Contributing
+Contributions are welcome! If you have any ideas, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
-The main functionality of the game is implemented in the `index.js` file. The code is structured into sections for variable declarations, event listeners, and functions.
+1. Fork the repository.
+2. Create a new branch for your feature: git checkout -b feature/your-feature-name.
+3. Make the necessary modifications and additions.
+4. Test your changes thoroughly.
+5. Commit your changes: git commit -m 'Add some feature'.
+6. Push to the branch: git push origin feature/your-feature-name.
+7. Create a pull request detailing your changes.
 
-The game interface styling is implemented using CSS in the `index.css` file.
+## Support
+For any issues, concerns, or suggestions, please contact me at official.hamna.ahmad@gmail.com.
 
-## Challenge
+## License 
+This project is licensed under the MIT License.
 
-The code includes a challenge to modify the asynchronous operations in the `handleClick` and `drawCardBtn` event listener functions to use `async/await` instead of `.then()`.
+Feel free to modify and customize the README file according to your specific project details and requirements.
 
-Feel free to make changes, improve the game, or customize it to suit your needs.
 
 Enjoy playing the war game app!
 
